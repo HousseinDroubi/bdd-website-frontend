@@ -1,0 +1,308 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+img {
+    height: 100%;
+  }
+  /* Navigation Bar */
+  .nav-bar{
+    /* background-color: antiquewhite; */
+    height:20vh;
+    padding: 1vh 12vh 0 10vh;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .nav-bar-list{
+    list-style: none;
+    color:black ;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .nav-bar-list>li{
+    margin-right: 25px;
+    display: flex;
+    color: white;
+  }
+  .nav-bar-list>li:last-child{
+    margin-right: 10px;
+  }
+  .nav-bar-drop-menu{
+    height: 5px;
+    margin-left: 2px;
+  }
+  
+  /*Hero*/
+
+  .hero {
+    background: url("./images/slide11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .hero>img{
+    height: 10vh;
+    width: 5vw;
+  }
+  .hero-paragraph{
+    align-self: center;
+    font-size: 8vh;
+    font-weight: bolder;
+    text-align: center;
+  }
+  /* Foundations */
+  .foundations{
+    background-color: #c1c1c1;
+  }
+  .foundations-heading{
+    font-size: 30px;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    color: black;
+  }
+  .foundations-boxes{
+    display: flex;
+    justify-content: space-around;
+  }
+  .foundations-box{
+    height: 82vh;
+    background-color: white;
+    width: 18%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    text-align: center;
+  }
+  .foundations-box>div{
+    margin-top: 20px;
+  }
+
+  .foundations-box>div:last-child{
+    margin-top: 15px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: #413d3d;
+    font-weight: bolder;
+    font-size: 17px;
+  }
+  .foundations-boxes-images{
+    width: 20vh;
+    height: 15vh;
+  }
+  /* Explore */
+  .explore{
+    background: url(./images/parallax-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  
+
+  .explore-heading{
+    padding-top:5%;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+ 
+  .explore-center-image{
+    padding-top:5%;
+    height: 60%;
+    width: 50%;
+  }
+  /* Join */
+
+  .join-heading{
+    color: black;
+    padding-top: 8vh;
+    font-size: 30px;
+  }
+  .join-image{
+    height: 60vh;
+    width: 30vw;
+  }
+  .join-explainations{
+    margin-top: 8vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  .join-explainations>div:last-child{
+    margin-right: 2vw;
+  }
+  .join-box{
+    width: 15vw;
+    font-size: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    margin-right: 10px;
+    height: 85vh;
+    flex-direction: column;
+    padding-top: 30px;
+    border-radius: 5px;
+  }
+  .join-box-heading{
+    padding-top: 30px;
+  }
+  .style-image-list{
+    list-style-image: url(./images/bullet5.png);
+  }
+  .style-image-list>li{
+    text-align: start;
+    margin-top: 15px;
+    color:#413d3d ;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+  } 
+  .style-image-list>li:last-child{
+    text-align: start;
+    padding-top: 15px;
+    list-style-image:none;
+    width: 15vw;
+    list-style: none;
+  } 
+  .download-app-section{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 20px;
+  }
+  .download-app-section-image{
+    margin-top: 20px;
+    height: 6vh;
+    width: 10vw;
+  }
+  .download-app-section-images{
+    margin-bottom: 50px;
+  }
+  .download-app-section-images>img:first-child{
+    margin-right: 20px;
+  }
+  /* Hub */
+  .hub{
+    width: 100%;
+    height: 66vh;
+    background: url("./images/parallax-light.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: start;
+    color: #fff;
+    position: relative;
+    justify-content: space-between; 
+  }
+  .hub-heading{
+    color: black;
+    padding-top: 40px;
+    padding-bottom:40px;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  .hub-boxes{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .hub-box{
+    
+    width: 10vw;
+    height: 15vh;
+  }
+  .hub-box>img{
+    
+    width: 8vw;
+    height: 15vh;
+  }
+  .hub-box>p{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .hub-box>h2{
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  .shadow-first{
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+    -webkit-text-stroke-color: #009a9e;
+  }
+  .shadow-second{
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+    -webkit-text-stroke-color: #e13870;;
+  }
+  .shadow-third{
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+    -webkit-text-stroke-color: #0078be;
+  }
+  .shadow-forth{
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+    -webkit-text-stroke-color: #00802d;
+  }
+  /* Blog */
+  .blog{
+    background: url("./images/bg-icon-empty.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #fff;
+    position: relative;
+    justify-content: space-between;
+  }
+  .blog>h1{
+    color: black;
+    text-align: center; 
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size:35px;
+  }
+  /* Utilises */
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .btn{
+    padding: 3vh 5vh 3vh 5vh;
+    color: white;
+    font-weight: bolder;
+    border:none;
+    background-color: #0078BE;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  .pointer{
+    cursor: pointer;
+  }
+  
+  .black{
+    color: black;
+  }
+  .bold{
+    font-weight: bolder;
+  }
+  
+  
